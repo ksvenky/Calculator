@@ -1,0 +1,1 @@
+web: gunicorn Calc.wsgi --log-file -

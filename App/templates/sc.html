@@ -1,0 +1,12 @@
+
+{% extends 'base.html'%}
+{% block content %}
+<center><h1>Scientific Calculator</h1>
+    <title>Scientific Calculator</title>
+    </br>
+    <iframe src="https://scratch.mit.edu/projects/851930577/embed" allowtransparency="true" width="858" height="802" frameborder="0" scrolling="no" allowfullscreen></iframe></center>
+<center><a href="{% url 'index' %}" class="btn btn-primary" tabindex="-1" role="button" aria-disabled="true">-> Standard Calculator </a></center>
+</br>
+<center><a href="{% url 'authors' %}" class="btn btn-primary" tabindex="-1" role="button" aria-disabled="true">-> Authors'page </a></center>
+    {% endblock %}
+    
